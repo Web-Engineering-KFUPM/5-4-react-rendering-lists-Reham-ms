@@ -1,4 +1,4 @@
-// src/components/TaaskItem.jsx
+// src/components/TaskItem.jsx
 import DueBadge from "./DueBadge";
 
 export default function TaskItem({ task, onToggle, onDelete }) {

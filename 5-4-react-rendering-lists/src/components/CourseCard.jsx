@@ -17,7 +17,7 @@ export default function CourseCard({ course, index, onMutateCourse }) {
     }
 
     function deleteTask(id) {
-        // Removing the task with matching id
+        // Remove the task with matching id
         onMutateCourse(index, (tasks) => tasks.filter((t) => t.id !== id));
     }
 

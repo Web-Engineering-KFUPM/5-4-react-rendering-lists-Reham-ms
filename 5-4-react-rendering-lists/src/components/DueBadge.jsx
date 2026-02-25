@@ -24,6 +24,6 @@ export default function DueBadge({ dueDate }) {
 
   return <span className="badge">{label}</span>;
 }
-  // TODO- (TASK 3): implement DueBadge label logic
+  // TODO (TASK 3): implement DueBadge label logic
 
 
